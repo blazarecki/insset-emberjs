@@ -1,10 +1,13 @@
 <p>Explanation...</p>
 
-<span class="score">{{ model.score }}</span>
+Score : <span class="score">{{ model.score }}</span>
 
 <a href="" class="start" {{ action "start"}}>Start the game</a>
 
 <div class="play">
+    <div id="clock"></div>
+    time : <div class="countdown"></div>
+    <br />
     <div class="cookie" {{ action "click"}}></div>
 </div>
 

@@ -1,5 +1,12 @@
 <h2>Scores</h2>
 
+<nav>
+  {{#link-to 'main'}}Start a new game{{/link-to}}
+</nav>
+
+<br />
+<br />
+
 {{#each model}}
 username : {{name}}, score: {{score}}
 <br/>
